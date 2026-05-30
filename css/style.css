@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+main {
+    max-width: 760px;
+    margin: 50px auto;
+    padding: 24px;
+}
+
+.puzzles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+    margin: 24px 0;
+}
+
+.card {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 18px;
+    text-align: left;
+    cursor: pointer;
+    background: white;
+}
+
+.card strong,
+.card span {
+    display: block;
+}
+
+.card span {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card.selected {
+    border-color: #222;
+}
+
+.easy { background: #dff7df; }
+.medium { background: #fff0bf; }
+.hard { background: #ffd7c2; }
+.expert { background: #eadcff; }
+
+.start {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 18px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.back {
+    color: #222;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 56px);
+    width: fit-content;
+    border: 3px solid #222;
+    background: #222;
+}
+
+.cell {
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    text-align: center;
+    font-size: 26px;
+    background: white;
+}
+
+.cell:nth-child(3n) {
+    border-right: 3px solid #222;
+}
+
+.cell:nth-child(9n) {
+    border-right: 1px solid #999;
+}
+
+.cell:nth-child(n + 19):nth-child(-n + 27),
+.cell:nth-child(n + 46):nth-child(-n + 54) {
+    border-bottom: 3px solid #222;
+}
+
+.fixed {
+    background: #eee;
+    font-weight: bold;
+    color: #111;
+}
+
+.wrong {
+    background: #ffd6d6;
+}
+
+.correct {
+    background: #d8f5d1;
+}
+
