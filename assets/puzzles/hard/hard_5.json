@@ -1,5 +1,5 @@
 {
-    "title": "Hard 5",
+    "title": "The Squeeze",
     "difficulty": "hard",
     "puzzle": [
         [0, 7, 3, 0, 8, 9, 2, 0, 0],
@@ -24,3 +24,4 @@
         [1, 9, 2, 7, 5, 4, 3, 6, 8]
     ]
 }
+

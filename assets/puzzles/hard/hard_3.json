@@ -1,5 +1,5 @@
 {
-    "title": "Hard 3",
+    "title": "Gridlock Grove",
     "difficulty": "hard",
     "puzzle": [
         [0, 0, 7, 0, 9, 0, 4, 0, 0],
@@ -24,3 +24,4 @@
         [5, 7, 9, 3, 6, 1, 2, 4, 8]
     ]
 }
+

@@ -1,5 +1,5 @@
 {
-    "title": "Medium 1",
+    "title": "Brain Stretch",
     "difficulty": "medium",
     "puzzle": [
         [0, 0, 0, 0, 4, 7, 9, 5, 0],
@@ -24,3 +24,4 @@
         [5, 6, 1, 8, 3, 4, 7, 2, 9]
     ]
 }
+

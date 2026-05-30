@@ -1,5 +1,5 @@
 {
-    "title": "Hard 4",
+    "title": "Number Maze",
     "difficulty": "hard",
     "puzzle": [
         [0, 0, 8, 0, 0, 0, 0, 4, 0],
@@ -24,3 +24,4 @@
         [8, 3, 9, 2, 7, 6, 1, 5, 4]
     ]
 }
+

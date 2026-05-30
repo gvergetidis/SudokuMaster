@@ -1,102 +1,22 @@
 [
-    {
-        "title":  "Easy 1",
-        "difficulty":  "easy",
-        "file":  "easy/easy_1.json"
-    },
-    {
-        "title":  "Easy 2",
-        "difficulty":  "easy",
-        "file":  "easy/easy_2.json"
-    },
-    {
-        "title":  "Easy 3",
-        "difficulty":  "easy",
-        "file":  "easy/easy_3.json"
-    },
-    {
-        "title":  "Easy 4",
-        "difficulty":  "easy",
-        "file":  "easy/easy_4.json"
-    },
-    {
-        "title":  "Easy 5",
-        "difficulty":  "easy",
-        "file":  "easy/easy_5.json"
-    },
-    {
-        "title":  "Medium 1",
-        "difficulty":  "medium",
-        "file":  "medium/medium_1.json"
-    },
-    {
-        "title":  "Medium 2",
-        "difficulty":  "medium",
-        "file":  "medium/medium_2.json"
-    },
-    {
-        "title":  "Medium 3",
-        "difficulty":  "medium",
-        "file":  "medium/medium_3.json"
-    },
-    {
-        "title":  "Medium 4",
-        "difficulty":  "medium",
-        "file":  "medium/medium_4.json"
-    },
-    {
-        "title":  "Medium 5",
-        "difficulty":  "medium",
-        "file":  "medium/medium_5.json"
-    },
-    {
-        "title":  "Hard 1",
-        "difficulty":  "hard",
-        "file":  "hard/hard_1.json"
-    },
-    {
-        "title":  "Hard 2",
-        "difficulty":  "hard",
-        "file":  "hard/hard_2.json"
-    },
-    {
-        "title":  "Hard 3",
-        "difficulty":  "hard",
-        "file":  "hard/hard_3.json"
-    },
-    {
-        "title":  "Hard 4",
-        "difficulty":  "hard",
-        "file":  "hard/hard_4.json"
-    },
-    {
-        "title":  "Hard 5",
-        "difficulty":  "hard",
-        "file":  "hard/hard_5.json"
-    },
-    {
-        "title":  "Expert 1",
-        "difficulty":  "expert",
-        "file":  "expert/expert_1.json"
-    },
-    {
-        "title":  "Expert 2",
-        "difficulty":  "expert",
-        "file":  "expert/expert_2.json"
-    },
-    {
-        "title":  "Expert 3",
-        "difficulty":  "expert",
-        "file":  "expert/expert_3.json"
-    },
-    {
-        "title":  "Expert 4",
-        "difficulty":  "expert",
-        "file":  "expert/expert_4.json"
-    },
-    {
-        "title":  "Expert 5",
-        "difficulty":  "expert",
-        "file":  "expert/expert_5.json"
-    }
+    { "title": "Sunny Starter", "difficulty": "easy", "file": "easy/easy_1.json" },
+    { "title": "Cozy Corners", "difficulty": "easy", "file": "easy/easy_2.json" },
+    { "title": "Number Nibble", "difficulty": "easy", "file": "easy/easy_3.json" },
+    { "title": "Gentle Grid", "difficulty": "easy", "file": "easy/easy_4.json" },
+    { "title": "Tiny Triumph", "difficulty": "easy", "file": "easy/easy_5.json" },
+    { "title": "Brain Stretch", "difficulty": "medium", "file": "medium/medium_1.json" },
+    { "title": "Puzzle Picnic", "difficulty": "medium", "file": "medium/medium_2.json" },
+    { "title": "Middle Mischief", "difficulty": "medium", "file": "medium/medium_3.json" },
+    { "title": "Logic Ladder", "difficulty": "medium", "file": "medium/medium_4.json" },
+    { "title": "Steady Sparks", "difficulty": "medium", "file": "medium/medium_5.json" },
+    { "title": "Crunch Time", "difficulty": "hard", "file": "hard/hard_1.json" },
+    { "title": "Sharp Turns", "difficulty": "hard", "file": "hard/hard_2.json" },
+    { "title": "Gridlock Grove", "difficulty": "hard", "file": "hard/hard_3.json" },
+    { "title": "Number Maze", "difficulty": "hard", "file": "hard/hard_4.json" },
+    { "title": "The Squeeze", "difficulty": "hard", "file": "hard/hard_5.json" },
+    { "title": "Crown Trial", "difficulty": "expert", "file": "expert/expert_1.json" },
+    { "title": "Final Cipher", "difficulty": "expert", "file": "expert/expert_2.json" },
+    { "title": "Mind Mountain", "difficulty": "expert", "file": "expert/expert_3.json" },
+    { "title": "Last Square", "difficulty": "expert", "file": "expert/expert_4.json" },
+    { "title": "Victory Vault", "difficulty": "expert", "file": "expert/expert_5.json" }
 ]

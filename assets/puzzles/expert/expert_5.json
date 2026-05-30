@@ -1,5 +1,5 @@
 {
-    "title": "Expert 5",
+    "title": "Victory Vault",
     "difficulty": "expert",
     "puzzle": [
         [6, 7, 0, 0, 0, 0, 0, 0, 0],
@@ -24,3 +24,4 @@
         [8, 5, 4, 2, 9, 6, 1, 3, 7]
     ]
 }
+

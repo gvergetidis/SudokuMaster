@@ -1,5 +1,5 @@
 {
-    "title": "Hard 2",
+    "title": "Sharp Turns",
     "difficulty": "hard",
     "puzzle": [
         [0, 8, 1, 0, 0, 4, 7, 9, 0],
@@ -24,3 +24,4 @@
         [4, 9, 2, 5, 8, 6, 3, 1, 7]
     ]
 }
+

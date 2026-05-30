@@ -1,5 +1,5 @@
 {
-    "title": "Medium 4",
+    "title": "Logic Ladder",
     "difficulty": "medium",
     "puzzle": [
         [0, 0, 8, 1, 0, 0, 0, 4, 0],
@@ -24,3 +24,4 @@
         [3, 5, 2, 8, 9, 4, 6, 7, 1]
     ]
 }
+

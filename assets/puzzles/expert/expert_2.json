@@ -1,5 +1,5 @@
 {
-    "title": "Expert 2",
+    "title": "Final Cipher",
     "difficulty": "expert",
     "puzzle": [
         [0, 0, 0, 0, 9, 0, 0, 0, 8],
@@ -24,3 +24,4 @@
         [1, 2, 6, 7, 3, 9, 8, 5, 4]
     ]
 }
+

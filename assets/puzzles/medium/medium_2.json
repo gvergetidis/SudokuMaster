@@ -1,5 +1,5 @@
 {
-    "title": "Medium 2",
+    "title": "Puzzle Picnic",
     "difficulty": "medium",
     "puzzle": [
         [0, 4, 2, 9, 1, 8, 0, 0, 0],
@@ -24,3 +24,4 @@
         [5, 9, 7, 8, 2, 4, 3, 1, 6]
     ]
 }
+
