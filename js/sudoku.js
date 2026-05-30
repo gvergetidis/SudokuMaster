@@ -1,28 +1,21 @@
 const puzzleBox = document.querySelector('#puzzles');
-const selectedPuzzle = document.querySelector('#selectedPuzzle');
 
 fetch('assets/puzzles/puzzles.json')
     .then((response) => response.json())
-    .then((puzzles) => {
-        puzzles.forEach((puzzle, index) => {
-            const card = document.createElement('button');
+    .then(showPuzzles);
 
-            card.type = 'button';
-            card.className = `card ${puzzle.difficulty}`;
-            card.dataset.file = puzzle.file;
-            card.innerHTML = `<strong>${puzzle.title}</strong><span>${puzzle.difficulty}</span>`;
+function showPuzzles(puzzles) {
+    puzzles.forEach(addPuzzleCard);
+}
 
-            if (index === 0) {
-                card.classList.add('selected');
-                selectedPuzzle.value = puzzle.file;
-            }
+function addPuzzleCard(puzzle) {
+    const card = document.createElement('button');
 
-            card.addEventListener('click', () => {
-                document.querySelectorAll('.card').forEach((item) => item.classList.remove('selected'));
-                card.classList.add('selected');
-                selectedPuzzle.value = puzzle.file;
-            });
+    card.type = 'submit';
+    card.name = 'puzzle';
+    card.value = puzzle.file;
+    card.className = `card ${puzzle.difficulty}`;
+    card.innerHTML = `<strong>${puzzle.title}</strong><span>${puzzle.difficulty}</span>`;
 
-            puzzleBox.appendChild(card);
-        });
-    });
+    puzzleBox.appendChild(card);
+}
